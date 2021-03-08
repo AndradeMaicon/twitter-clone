@@ -1,9 +1,6 @@
-// eslint-disable-next-line
-import styled from "styled-components";
-
 import { createGlobalStyle } from 'styled-components';
 
-export default createGlobalStyle`
+const GlobalStyles =  createGlobalStyle`
   *{
     margin: 0;
     padding: 0;
@@ -44,3 +41,5 @@ export default createGlobalStyle`
     --twitter-light-hover: #2C8ED6;
   }
 `;
+
+export default GlobalStyles;
